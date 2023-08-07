@@ -1,0 +1,19 @@
+
+
+
+//Get all product
+GET http://127.0.0.1:8000/api/product
+
+
+###
+//Create New Product
+POST http://127.0.0.1:8000/api/product/new
+Content-Type: application/json
+
+{
+    "product_name": "product2",
+    "product_price": 123.45,
+    "product_category" : "cat1",
+    "product_image": "prodimg2",
+    "product_stock" : 1
+}
